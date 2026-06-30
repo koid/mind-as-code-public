@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Claude Code
+.claude/local/
+.claude/settings.local.json
+
+# Build output
+dist/
+
+# Falsification logs (具体的な意思決定の結果はリポジトリに含めない)
+logs/falsification/*
+!logs/falsification/.gitkeep
+!logs/falsification/TEMPLATE.md
